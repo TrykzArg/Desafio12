@@ -1,0 +1,25 @@
+
+.btn-borde {
+  background-color: transparent;
+  border: 2px solid #8B0000; 
+  color: #8B0000; 
+}
+
+
+.btn-borde:hover {
+  background-color: #8B0000; 
+  color: #fff; 
+}
+
+.btn-azul {
+  background-color: #00008B; 
+  border: 2px solid #00008B; 
+  color: #fff; 
+}
+
+
+.btn-azul:hover {
+  background-color: #0000CD; 
+  border: 2px solid #0000CD; 
+}
+
