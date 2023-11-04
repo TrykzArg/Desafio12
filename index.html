@@ -30,7 +30,7 @@
                 <label for="fecha-nacimiento" class="form-label">Fecha de Nacimiento:</label>
                 <input type="date" id="birthDate" class="form-control" required>
             </div>
-            <button id="sumbit" type="submit" class="btn btn-primary">Agregar</button>
+            <button id="submit" type="submit" class="btn btn-primary">Agregar</button>
         </form>
     </div>
 
@@ -43,32 +43,6 @@
             
         </tbody>
     </table>
-
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Editar contacto</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-0">
-                    <form class="container-fluid p-0" id="Edit">
-                        <div class="row d-flex g-2 p-2">
-                            <div class="col-sm"><input class="form-control" type="text" id="nameEdit" placeholder="Nombre"></div>
-                        </div>
-                        <div class="row d-flex g-2 p-2 ">
-                            <div class="col-sm"><input class="form-control" type="email" id="EmailEdit" placeholder="Email"></div>
-                            <div class="col-sm"><input class="form-control text-si" type="date" id="AgeEdit" placeholder="Nacimiento"></div>
-                        </div>
-                        <div class="modal-footer p-2">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="sumbit-edited">Editar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.1/dist/js/bootstrap.min.js"></script>
@@ -76,76 +50,3 @@
 </body>
 
 </html>
-
-
-
-<!-- <!DOCTYPE html>
-
-
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
-</head>
-
-<body>
-    <div id="contact-form" class="container" >
-        <h1>Agregar Contacto</h1>
-        <form id="form">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" placeholder="Nombre" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Email" required>
-            <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-            <input type="date" id="birthDate" required>
-
-            <button id="agregar" type="button">Agregar</button>
-        </form>
-    </div>
-
-    <div id="errorMessages" style="display: none;"></div>
-    <div id="confirmationMessage" style="display: none;"></div>
-
-
-    <div id="message"></div>
-        <table id="table">
-            <tbody id="tbody">
-
-            </tbody> 
-        </table>
-         Modal 
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Editar contacto</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-0">
-                    <form class="container-fluid p-0" id="Edit" >
-                        <div class="row d-flex g-2 p-2">
-                            <div class="col-sm"><input class="form-control" type="text"  id="nameEdit" placeholder="Nombre" ></div>
-                            <div class="col-sm"><input class="form-control text-si" type="number"  id="numberEdit" placeholder="Numero" max="999999999999" ></div>
-                        </div>
-                        <div class="row d-flex g-2 p-2 ">
-                            <div class="col-sm"><input class="form-control" type="mail"  id="EmailEdit" placeholder="Email"></div>
-                            <div class="col-sm"><input class="form-control text-si" type="date"  id="AgeEdit" placeholder="Nacimiento"></div>
-                        </div>
-                    <div class="modal-footer p-2">
-                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" id="sumbit">Editar</button>
-                      </div>
-                </div>
-                    </form>
-              </div>
-            </div>
-          </div>
-
-    <script src="app.js"></script>
-</body>
-
-</html> -->
